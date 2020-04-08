@@ -1,0 +1,66 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Dell Inspiron",
+            "year": 2017
+        },
+        {
+            "id": 3,
+            "model": "Lenovo A6 Series",
+            "year": 2014
+        },
+        {
+            "id": 4,
+            "model": "Hp Core i7",
+            "year": 2013
+        },
+        {
+            "id": 5,
+            "model": "Macbook Pro",
+            "year": 2010
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Kristen",
+            "lastName": "Howton",
+            "age": 31,
+            "computerId": 3
+        },
+        {
+            "id": 2,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 27,
+            "computerId": 2
+        },
+        {
+            "id": 3,
+            "firstName": "Sarah",
+            "lastName": "Landolt",
+            "age": 34,
+            "computerId": 1
+        },
+        {
+            "id": 4,
+            "firstName": "John",
+            "lastName": "Durr",
+            "age": 25,
+            "computerId": 4
+        },
+        {
+            "id": 5,
+            "firstName": "Derek",
+            "lastName": "Buckley",
+            "age": 33,
+            "computerId": 5
+        }
+    ]
+}
