@@ -62,5 +62,24 @@
             "age": 33,
             "computerId": 5
         }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "department": "IT"
+        },
+        {
+            "id": 2,
+            "department": "Accounting"
+        },
+        {
+            "id": 3,
+            "department": "HR"
+        },
+        {
+            "id": 4,
+            "department": "Customer Service"
+        }
+
     ]
 }
