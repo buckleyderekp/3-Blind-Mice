@@ -2,6 +2,7 @@ import { employeeHTML } from "./employee.js";
 import { useEmployees } from "./employeeDataProvider.js";
 import { useComputers } from "../computer/computerDataProvider.js";
 import { useDepartments } from "../departments/departmentDataProvider.js";
+import { useLocations } from "../locations/locationsDataProvider.js";
 
 
 
@@ -13,6 +14,7 @@ export const render = (employeesToRender) => {
     
     const computers = useComputers()
     const departments = useDepartments()
+    const locations = useLocations()
     
     contentTarget.innerHTML = employeesToRender.map( (singleEmployeeObject) =>{
         
@@ -26,7 +28,12 @@ export const render = (employeesToRender) => {
                 return department.id === singleEmployeeObject.departmentId
             }
             )
-            return employeeHTML(singleEmployeeObject, foundComputer, founddepartment)
+        const foundlocation = locations.find(
+            (location) => {
+                return location.id === singleEmployeeObject.location
+            }
+            )
+            return employeeHTML(singleEmployeeObject, foundComputer, founddepartment, foundlocation)
         }).join("")
         
     }

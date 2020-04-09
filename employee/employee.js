@@ -1,6 +1,6 @@
 
 
-export const employeeHTML = (employeeObject, computerObject, departmentObject) => {
+export const employeeHTML = (employeeObject, computerObject, departmentObject, locationObject) => {
     return `
     <div class="employee">
     <header class="employee__name">
@@ -12,6 +12,9 @@ export const employeeHTML = (employeeObject, computerObject, departmentObject) =
     <section class="employee__department">
         Works in the ${departmentObject.department} department
     </section>
+    <section class="employee__location">
+    Works at the ${locationObject.location} office
+</section>
 </div>
 `
 }
