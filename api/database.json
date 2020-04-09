@@ -32,35 +32,59 @@
             "firstName": "Kristen",
             "lastName": "Howton",
             "age": 31,
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 1
         },
         {
             "id": 2,
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
             "age": 27,
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 2
         },
         {
             "id": 3,
             "firstName": "Sarah",
             "lastName": "Landolt",
             "age": 34,
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 3
         },
         {
             "id": 4,
             "firstName": "John",
             "lastName": "Durr",
             "age": 25,
-            "computerId": 4
+            "computerId": 4,
+            "departmentId": 4
         },
         {
             "id": 5,
             "firstName": "Derek",
             "lastName": "Buckley",
             "age": 33,
-            "computerId": 5
+            "computerId": 5,
+            "departmentId": 4
         }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "department": "IT"
+        },
+        {
+            "id": 2,
+            "department": "Accounting"
+        },
+        {
+            "id": 3,
+            "department": "HR"
+        },
+        {
+            "id": 4,
+            "department": "Customer Service"
+        }
+
     ]
 }
