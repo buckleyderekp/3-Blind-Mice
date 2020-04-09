@@ -1,11 +1,17 @@
 
 
-export const employeeHTML = (employeeObject, computerObject) => {
+export const employeeHTML = (employeeObject, computerObject, departmentObject) => {
     return `
-    <section class="employee">
-      <h2>${employeeObject.firstName} ${employeeObject.lastName}</h2>
-      <div>${employeeObject.age}</div>
-      <div>Current computer: ${computerObject.year} ${computerObject.model}</div>
+    <div class="employee">
+    <header class="employee__name">
+        <h1>${employeeObject.firstName} ${employeeObject.lastName}</h1>
+    </header>
+    <section class="employee__computer">
+        Currently using a ${computerObject.year} ${computerObject.model}
     </section>
+    <section class="employee__department">
+        Works in the ${departmentObject.department} department
+    </section>
+</div>
 `
 }
